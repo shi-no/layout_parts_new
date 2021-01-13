@@ -7,16 +7,17 @@
     padding: 20px;
   }
 
-  .q4__parent1, .q4__parent2 {
+  .q4__parent {
     display: table;
     width: 100%;
-  }
-
-  .q4__parent2  {
     margin-top: 20px;
   }
 
-  .orange, .pink, .blue, .yellow, .red, .green {
+  .q4__parent:first-child{
+    margin-top: 0;
+  }
+
+  .common_box {
     display: table-cell;
     padding: 20px 0;
     text-align: center;

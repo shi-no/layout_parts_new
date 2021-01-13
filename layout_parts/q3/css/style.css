@@ -5,9 +5,9 @@
   margin: 0 auto;
 }
 
-th {
-  background-color: #24a;
-  color: #fff;
+.q3__contents {
+  width: 100%;
+  table-layout: fixed;
 }
 
 .q3__contents th, .q3__contents td {
@@ -18,6 +18,8 @@ th {
 .q3__contents th {
   font-size: 18px;
   line-height: 26px;
+  background-color: #24a;
+  color: #fff;
 }
 
 .q3__contents td {
@@ -26,11 +28,11 @@ th {
   line-height: 22px;
 }
 
-tbody tr:nth-child(even) {
+.q3__contents tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child {
+.q3__tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
