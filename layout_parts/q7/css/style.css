@@ -12,7 +12,7 @@
   width: 225px;
 }
 
-.q7__box__text {
+.q7_caption {
   font-size: 16px;
   box-sizing: border-box;
   vertical-align: middle;
@@ -28,6 +28,7 @@
 }
 
 .q7_q2_inner {
+  display: table;
   margin: 0 auto;
 }
 
@@ -65,7 +66,7 @@
   vertical-align: top;
 }
 
-.q7__q5__fixed, .q7__q5__variable {
+.q7__q5__fixed {
   display: inline-block;
 }
 

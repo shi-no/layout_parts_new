@@ -40,7 +40,7 @@
   color: #FFF;
   box-sizing: border-box;
   font-size: 16px;
-  color: #fff;
+  word-break: break-all;
 }
 
 .q8_circle {
@@ -57,8 +57,12 @@
 }
 
 @keyframes rotate-anime {
-  0% {transform: rotate(0);}
-  100% {transform: rotate(360deg);}
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* 回答はここに書いてね */
